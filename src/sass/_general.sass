@@ -338,15 +338,16 @@ nav
 		margin-top: 12px
 		line-height: 17px
 	&_link
-		display: block
+		width: 100%
+		display: flex
+		justify-content: center
 		position: absolute
 		bottom: 49px
-		left: 50%
-		transform: translateX(-50%)
-		font-size: 15px
-		font-weight: 400
-		text-transform: uppercase
-		color: $blue
+		a
+			font-size: 15px
+			font-weight: 400
+			text-transform: uppercase
+			color: $blue
 footer
 	padding: 14px 23px 39px 23px
 	a
@@ -413,5 +414,5 @@ footer
 			margin-top: 19px
 			text-transform: uppercase
 			text-align: center
-.xs_visible
+.xs_visible, .label_xs_visible
 	display: none
