@@ -917,6 +917,10 @@ footer a:hover {
     height: 22px;
     font-size: 10px;
   }
+  .subheader_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
 
   .promo {
     min-height: 400px;
@@ -941,9 +945,21 @@ footer a:hover {
     height: 50px;
     margin-top: 72px;
   }
+  .promo_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1eacc7), to(#4ce2ff));
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  }
 
   .menu {
     width: 85%;
+  }
+  .menu_item {
+    width: 100%;
+    text-align: center;
+  }
+  .menu_item a {
+    padding: 5px 0;
+    display: block;
   }
 
   .advn {
